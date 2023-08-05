@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans&family=Ubuntu:wght@300;400;500;700&display=swap');
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    max-height: 140px;
+    padding: 0;
+    transform: rotate(-90deg);
+    width: 100%;
+    min-width: 105px;
+}
+svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 2.5px;
+}
+svg.radial-progress circle.incomplete { 
+    opacity: 0.25;
+}
+svg.radial-progress circle.complete { 
+    stroke-dasharray: 219.91148575129; 
+}
+svg.radial-progress text {
+    fill: #ffffff;
+    font: 400 10px/1 'Poppins', sans-serif;
+    text-anchor: middle;
+}
+.cp_1 svg.radial-progress circle { 
+    stroke: #2853cc; 
+}
+.cp_2 svg.radial-progress circle { 
+    stroke: #f19910; 
+}
+.cp_3 svg.radial-progress circle { 
+    stroke: #69e8a1;
+}
